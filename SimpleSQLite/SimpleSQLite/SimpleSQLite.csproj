@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>J.Aguasviva</Authors>
+    <Company>Enadla</Company>
+    <Description>Operaciones basicas de sql con SQLite para agilizar el desarollo</Description>
+    <PackageProjectUrl>https://github.com/soworksl2/SimpleSQLite</PackageProjectUrl>
+    <PackageTags>SQLite</PackageTags>
+    <PackageReleaseNotes>-se añaden las operaciones CRUD para sqlite</PackageReleaseNotes>
+    <NeutralLanguage>es-DO</NeutralLanguage>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+    <PackageReference Include="SQLiteNetExtensions" Version="2.1.0" />
+  </ItemGroup>
 
 </Project>
